@@ -1,0 +1,9 @@
+PyQt6
+DrissionPage
+bardapi
+requests
+torch
+transformers
+scipy
+soundfile
+beautifulsoup4

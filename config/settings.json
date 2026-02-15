@@ -1,0 +1,19 @@
+{
+    "paths": {
+        "flow_html": "/app/assets/html/Flow.html",
+        "whisk_html": "/app/assets/html/Whisk.tml",
+        "qwen_tts_model": "assets/models/qwen3_tts",
+        "output_dir": "assets/outputs",
+        "fonts_dir": "assets/fonts"
+    },
+    "api_keys": {
+        "gemini_api_key": ""
+    },
+    "automation": {
+        "headless": true,
+        "browser_path": ""
+    },
+    "tts": {
+        "voice_preset": "default"
+    }
+}

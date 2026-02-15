@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Flow Mock</title>
+</head>
+<body>
+    <h1>Flow Video Generator</h1>
+    <input type="text" id="prompt-input" placeholder="Enter prompt...">
+    <button id="generate-btn" onclick="startGen()">Generate</button>
+    <div id="result-area"></div>
+    <script>
+        function startGen() {
+            document.getElementById('result-area').innerHTML = '<div class="spinner">Generating...</div>';
+            setTimeout(() => {
+                document.getElementById('result-area').innerHTML = '<a href="https://example.com/video.mp4" class="download-link">Download Video</a>';
+            }, 2000);
+        }
+    </script>
+</body>
+</html>

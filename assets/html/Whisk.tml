@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Whisk Mock</title>
+</head>
+<body>
+    <h1>Whisk Image/Video Editor</h1>
+    <input type="file" id="image-upload">
+    <textarea id="edit-instructions" placeholder="Enter instructions..."></textarea>
+    <button id="process-btn" onclick="startProc()">Process</button>
+    <div id="result-area"></div>
+    <script>
+        function startProc() {
+            document.getElementById('result-area').innerHTML = 'Processing...';
+            setTimeout(() => {
+                document.getElementById('result-area').innerHTML = '<img id="result-image" src="https://example.com/edited_image.jpg">';
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
